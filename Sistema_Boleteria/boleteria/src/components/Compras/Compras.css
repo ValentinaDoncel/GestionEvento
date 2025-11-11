@@ -1,0 +1,74 @@
+section {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+section > div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+.boleta {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  max-width: 240px;
+  margin: auto;
+  min-height: 250px;
+  width: 100%;
+}
+
+.boleta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-imagen {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.imagen-Evento {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+figcaption {
+  padding: 0.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.title_Evento {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1e1e2f;
+}
+
+.description_general {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+.fecha {
+  font-size: 0.75rem;
+  color: #888;
+}

@@ -1,0 +1,96 @@
+.formulario-pago {
+  width: 100%;
+  max-width: 480px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #f4f6fa;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+.formulario-pago label {
+  font-size: 1.6rem;
+  color: #1e1e2f;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.formulario-pago input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.formulario-pago input:focus {
+  border-color: #2196f3;
+  outline: none;
+}
+
+.cantidad-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cantidad-control label {
+  font-size: 1.1rem;
+  color: #1e1e2f;
+}
+
+.cantidad-botones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cantidad-botones button {
+  width: 32px;
+  height: 32px;
+  font-size: 1.2rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cantidad-botones button:hover {
+  background-color: #1976d2;
+}
+
+.cantidad-botones span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario-pago button[type="submit"] {
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-pago button[type="submit"]:hover {
+  background-color: #1976d2;
+}

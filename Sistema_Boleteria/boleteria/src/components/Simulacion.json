@@ -1,0 +1,40 @@
+
+[
+    {
+        "id" : 1,
+        "title" : "Preliminar del hombre araña",
+        "fecha" : "12/12/2025",
+        "img": "../assets/Arana.jpg",
+        "descripcion" : "No te pierdas la preliminar del increible hombre araña en valleduapr eete 12 de diciembre, estaran presentes todos los actores respondiendos tus preguntas",
+        "precio" : 20000 
+
+    },
+    {
+        "id" : 2,
+        "title" : "Preliminar del hombre araña",
+        "fecha" : "12/12/2025",
+        "descripcion" : "Ns preguntas",
+        "img": "../assets/Gumbal.jpg",
+        "precio" : 20000 
+
+    },
+    {
+        "id" : 3,
+        "title" : "Preliminar del hombre araña",
+        "fecha" : "12/12/2025",
+        "descripcion" : "No te pierdas la preliminar del increible hombre araña en valleduapr eete 12 de diciembre, estaran presentes todos los actores respondiendos tus preguntas",
+        "img": "../assets/Nose.jpg",
+        "precio" : 20000 
+
+    },
+    {
+        "id" : 4,
+        "title" : "Preliminar del hombre araña",
+        "fecha" : "12/12/2025",
+        "descripcion" : "No te pierdas la preliminar del increible hombre araña en valleduapr eete 12 de diciembre, estaran presentes todos los actores respondiendos tus preguntas",
+        "img": "../assets/Samu.jpg",
+        "precio" : 20000 
+
+    }
+
+]
